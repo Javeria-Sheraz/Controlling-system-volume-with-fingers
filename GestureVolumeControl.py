@@ -44,6 +44,7 @@ while True:
                     x2 = x
                     y2 = y
         dist = ((x2-x1)**2 + (y2-y1)**2) ** (0.5) //4
+        # for drawing yellow line connecting the two circles
         cv2.line(image,(x1,y1), (x2,y2), (0,255,255), 4)
 
         # Getting current volume level (0.0 to 1.0)
