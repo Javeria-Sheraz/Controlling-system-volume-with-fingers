@@ -57,11 +57,11 @@ while True:
         else:
             pyautogui.press("volumedown")
 
+        # This displays text on the video
         cv2.putText(image, f'Vol: {int(vol * 100)}%', (30, 50),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     cv2.imshow("Hand Volume Control", image)
-
 
     # This waits for 10 milliseconds before capturing next video frame (going back to while loop)
     key = cv2.waitKey(10)
