@@ -1,8 +1,8 @@
 # Controlling-system-volume-with-fingers
 
+This Python project uses your webcam and computer vision to control the system volume using hand gestures. It tracks your fingers in real-time using MediaPipe and adjusts the volume based on the distance between your thumb and index finger, creating an interactive experience.
 
-
-## ✅ How to Run the Code
+### ✅ How to Run the Code
 
 To run this project on your system, follow these steps:
 
