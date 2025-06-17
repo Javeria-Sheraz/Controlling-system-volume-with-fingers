@@ -22,17 +22,20 @@ To run this project on your system, follow these steps:
    git clone https://github.com/Javeria-Sheraz/Controlling-system-volume-with-fingers.git
 
 
+
 3. Create a virtual environment and activate it; Run:
 
    python -m venv venv
    venv\Scripts\activate
+
    
 
-5. Make sure the file named "requiredLibrariess.txt" is in the same folder.
+5. Make sure the file named "requiredLibraries.txt" is in the same folder.
 
 6. Install the required Python libraries; Run:
 
-   pip install -r requiredLibrariess.txt
+   pip install -r requiredLibraries.txt
+
 
    
 
