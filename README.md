@@ -26,7 +26,7 @@ To run this project on your system, follow these steps:
 
 4. Create a virtual environment and activate it; Run:
 
-   python -m venv venv
+   python -m venv venv  
    venv\Scripts\activate  
 
    
