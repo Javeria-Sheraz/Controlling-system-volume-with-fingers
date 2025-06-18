@@ -1,47 +1,93 @@
-# Controlling-system-volume-with-fingers
+# Controlling System Volume with Fingers
 
-This Python project uses your webcam and computer vision to control the system volume using hand gestures. It tracks your fingers in real-time using MediaPipe and adjusts the volume based on the distance between your thumb and index finger, creating an interactive experience.
-
-### ✅ How to Run the Code
-
-To run this project on your system, follow these steps:
-
-### 🔧 Requirements
-
-* Python must be installed (Python 3.7 or higher is recommended).
-* A webcam is required for gesture detection.
+This Python project uses your webcam and computer vision to control the system volume using hand gestures. It tracks your fingers in real-time using **MediaPipe** and adjusts the volume based on the distance between your **thumb** and **index finger**, creating a fun and interactive experience.
 
 ---
 
-### 🚀 Instructions
+## 🎯 Features
 
-1. Open your IDE (for example, VS Code or PyCharm) or open a terminal window.
+* Real-time hand tracking using MediaPipe
+* System volume control with gesture recognition
+* Webcam-based interaction without any hardware modules
 
-2. Clone the repository by running the following command in the terminal and change into the project directory; Run:
+---
 
-   git clone https://github.com/Javeria-Sheraz/Controlling-system-volume-with-fingers.git  
-   cd Controlling-system-volume-with-fingers  
+## ✅ Prerequisites
 
+* Python 3.7 or above installed on your system
+* A webcam
+* Git and a code editor (VS Code or PyCharm recommended)
 
+---
 
-4. Create a virtual environment and activate it; Run:
+## 🔧 Setup & Run Instructions
 
-   python -m venv venv  
-   venv\Scripts\activate  
+### 1. Open your IDE or terminal window.
 
-   
+### 2. Clone the repository:
 
-5. Make sure the file named "requiredLibraries.txt" is in the same folder.
+```
+git clone https://github.com/Javeria-Sheraz/Controlling-system-volume-with-fingers.git
+cd Controlling-system-volume-with-fingers
+```
 
-6. Install the required Python libraries; Run:
+### 3. Create a virtual environment:
 
-   pip install -r requiredLibraries.txt
+```
+python -m venv venv
+```
+Ensure venv folder is created in the cloned repo folder
 
+### 4. Activate the environment (for CMD terminal):
 
-   
+```
+venv\Scripts\activate
+```
 
-7. Finally, run the main Python file to start the gesture-based volume control; Run:
+> ⚠️ If you're using PowerShell and encounter script permission errors:
 
-   python GestureVolumeControl.py
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\Activate.ps1
+```
 
+### 5. Ensure `requiredLibraries.txt` is in the same folder.
+
+### 6. Install the required libraries:
+
+```
+pip install -r requiredLibraries.txt
+```
+
+### 7. Run the main file:
+
+```
+python GestureVolumeControl.py
+```
+
+---
+
+## ▶️ Optional: Use `run.bat
+
+Create a file named `run.bat` and paste this:
+
+```bat
+@echo off
+python -m venv venv
+call venv\Scripts\activate.bat
+pip install -r requiredLibraries.txt
+python GestureVolumeControl.py
+```
+
+## 🗂️ Project Structure
+
+```
+Controlling-system-volume-with-fingers/
+├── GestureVolumeControl.py
+├── requiredLibraries.txt
+├── README.md
+└── venv/
+```
+
+By [Javeria Sheraz](https://github.com/Javeria-Sheraz)
 
