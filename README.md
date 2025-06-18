@@ -20,10 +20,11 @@ To run this project on your system, follow these steps:
 2. Clone the repository by running the following command in the terminal and change into the project directory; Run:
 
    git clone https://github.com/Javeria-Sheraz/Controlling-system-volume-with-fingers.git
+   cd Controlling-system-volume-with-fingers
 
 
 
-3. Create a virtual environment and activate it; Run:
+4. Create a virtual environment and activate it; Run:
 
    python -m venv venv
    venv\Scripts\activate
